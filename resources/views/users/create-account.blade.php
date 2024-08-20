@@ -56,7 +56,8 @@
                 <div class="create-sec-01-title">
                     <h2>CREATE ACCOUNT</h2>
                 </div>
-                <form method="POST" action="/create-account-validation" class="create-sec-01-form">
+                <form method="POST" action="{{route('users.newUser')}}" class="create-sec-01-form">
+                    @csrf
                     <div class="mb-3">
                         <label class="form-label">First Name</label>
                         <input type="text" name="first_name" class="form-control" aria-describedby="emailHelp">
