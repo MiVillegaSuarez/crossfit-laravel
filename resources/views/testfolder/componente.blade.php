@@ -1,0 +1,1 @@
+<h1>Hola desde la vista des componente</h1>
